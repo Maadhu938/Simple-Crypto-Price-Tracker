@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crypto Price Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1>Crypto Price Tracker</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Coin</th>
+        <th>Price + 7d Trend</th>
+        <th>24h %</th>
+      </tr>
+    </thead>
+    <tbody id="crypto-body"></tbody>
+  </table>
+
+  <div id="pagination">
+    <button id="prev-btn">Prev</button>
+    <span id="page-number">1</span>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <div id="bitcoin-prediction">
+    <button id="predict-btn">Predict Bitcoin Price</button>
+    <div id="prediction-result"></div>
+  </div>
+
+  <script src="api_connection.js"></script>
+
+</body>
+</html>

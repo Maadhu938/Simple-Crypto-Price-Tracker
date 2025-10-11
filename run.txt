@@ -1,0 +1,10 @@
+cd backend
+pip install -r requirements.txt
+python train_lstm.py
+python app.py
+
+cd fronted
+python -m http.server 8000
+
+In Browser http://localhost:8000/index.html
+

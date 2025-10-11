@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fafbfc;
+  margin: 40px auto;
+  max-width: 900px;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px #ececec;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+thead {
+  background: #f5f7fa;
+  color: #556;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+img.crypto-img {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.green {
+  color: #0f9d58;
+  font-weight: 600;
+}
+
+.red {
+  color: #db4437;
+  font-weight: 600;
+}
+
+#pagination {
+  margin-bottom: 32px;
+}
+
+#pagination button {
+  background: #05c46b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+#pagination button:disabled {
+  background: #bdc3c7;
+  cursor: default;
+}
+
+#bitcoin-prediction {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #ececec;
+}
+
+#predict-btn {
+  font-size: 16px;
+  background: #05c46b;
+  border: none;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#predict-btn:hover {
+  background: #03944c;
+}
+
+#prediction-result {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 24px;
+  color: #222;
+}
